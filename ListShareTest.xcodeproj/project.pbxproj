@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670824DD2C59425300C3C746 /* VersionInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670824DC2C59425300C3C746 /* VersionInformation.swift */; };
+		670824DE2C59425300C3C746 /* VersionInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670824DC2C59425300C3C746 /* VersionInformation.swift */; };
 		670A38C52C5049C50041BC57 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670A38C42C5049C50041BC57 /* MainMenu.swift */; };
 		6757B66E2C5179C8002D2CA6 /* WFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6757B66D2C5179C8002D2CA6 /* WFriendsView.swift */; };
 		6757B6702C5179DD002D2CA6 /* WFriendsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6757B66F2C5179DD002D2CA6 /* WFriendsDetail.swift */; };
@@ -115,6 +117,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		670824DC2C59425300C3C746 /* VersionInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInformation.swift; sourceTree = "<group>"; };
 		670A38C42C5049C50041BC57 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		6757B6562C51762F002D2CA6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		6757B6582C51762F002D2CA6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -349,6 +352,7 @@
 				67BE548A2C514E0A0060FDA1 /* SupportData.swift */,
 				67BE548D2C5157140060FDA1 /* AppLogo.swift */,
 				6765BBDB2C5574A800B3EA78 /* SDFamilyData.swift */,
+				670824DC2C59425300C3C746 /* VersionInformation.swift */,
 			);
 			path = Databases;
 			sourceTree = "<group>";
@@ -591,6 +595,7 @@
 				676EF4F02C4CC71F009F8DD2 /* ListShareTestApp.swift in Sources */,
 				67BE548E2C5157140060FDA1 /* AppLogo.swift in Sources */,
 				67BE54882C514DFA0060FDA1 /* AboutData.swift in Sources */,
+				670824DD2C59425300C3C746 /* VersionInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +633,7 @@
 				6757B6722C517F22002D2CA6 /* WMainMenu.swift in Sources */,
 				67BE54972C515ED20060FDA1 /* WSupport.swift in Sources */,
 				67BE54942C515EC20060FDA1 /* WAbout.swift in Sources */,
+				670824DE2C59425300C3C746 /* VersionInformation.swift in Sources */,
 				67A11FC42C4EBC4000289BC3 /* WFamilyDetail.swift in Sources */,
 				67A11F942C4EB68B00289BC3 /* ListShareWatchApp.swift in Sources */,
 				67BE548C2C514E0A0060FDA1 /* SupportData.swift in Sources */,
