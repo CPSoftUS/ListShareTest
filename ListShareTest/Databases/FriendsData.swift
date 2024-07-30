@@ -17,8 +17,7 @@ import Foundation
 
 
 var friends: [friends] =
-[friends(name: "Michel Miller", address: "237 Jill Court", city: "New Ringgold", state: "PA"),
-friends(name: "Holly Fredrick", address: "2515 Peachtree Road", city: "Allentown", state: "PA"),
-friends(name: "", address: "1234 AnyStreet", city: "AnyTown", state: "--"),
+[friends(name: "Mike Doe", address: "123 Main Street", city: "Anytown", state: "FL"),
+friends(name: "Holly Doe", address: "456 Main Street", city: "Somewhere", state: "CA"),
 ]
 }

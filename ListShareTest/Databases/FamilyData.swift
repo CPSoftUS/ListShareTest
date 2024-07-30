@@ -14,13 +14,9 @@ struct family: Identifiable, Hashable
 	
 	
 	var names: [family] = [
-	family(name: "Danny Uff", phone: "610-703-8790"),
-	family(name: "Kelly Larimer", phone: "610-703-8840"),
-	family(name: "Ralph Uff", phone: "610-972-6348"),
-	family(name: "Cathy Uff", phone: "610-434-4631"),
-	family(name: "Scott Uff", phone: "610-972-6657"),
-	family(name: "Thomas Uff", phone: "610-972-4088"),
-	family(name: "Lexi Uff", phone: "719-321-9620‬")
-	]
+	family(name: "Jane Doe", phone: "555-555-5555"),
+	family(name: "Jonh Doe", phone: "123-456-7890"),
+	family(name: "Danny Doe", phone: "987-654-3210"),
+		]
 
 }
