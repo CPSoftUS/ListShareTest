@@ -7,13 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670A38C52C5049C50041BC57 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670A38C42C5049C50041BC57 /* MainMenu.swift */; };
+		6757B66E2C5179C8002D2CA6 /* WFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6757B66D2C5179C8002D2CA6 /* WFriendsView.swift */; };
+		6757B6702C5179DD002D2CA6 /* WFriendsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6757B66F2C5179DD002D2CA6 /* WFriendsDetail.swift */; };
+		6757B6722C517F22002D2CA6 /* WMainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6757B6712C517F22002D2CA6 /* WMainMenu.swift */; };
+		6765BBDC2C5574A800B3EA78 /* SDFamilyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6765BBDB2C5574A800B3EA78 /* SDFamilyData.swift */; };
+		6765BBDD2C5574A800B3EA78 /* SDFamilyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6765BBDB2C5574A800B3EA78 /* SDFamilyData.swift */; };
+		6765BBDF2C557A5D00B3EA78 /* FamlyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6765BBDE2C557A5D00B3EA78 /* FamlyDetailView.swift */; };
+		6765BBE02C557A5D00B3EA78 /* FamlyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6765BBDE2C557A5D00B3EA78 /* FamlyDetailView.swift */; };
 		676EF4F02C4CC71F009F8DD2 /* ListShareTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EF4EF2C4CC71F009F8DD2 /* ListShareTestApp.swift */; };
-		676EF4F22C4CC71F009F8DD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EF4F12C4CC71F009F8DD2 /* ContentView.swift */; };
+		676EF4F22C4CC71F009F8DD2 /* FamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EF4F12C4CC71F009F8DD2 /* FamilyView.swift */; };
 		676EF4F42C4CC720009F8DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676EF4F32C4CC720009F8DD2 /* Assets.xcassets */; };
 		676EF4F72C4CC720009F8DD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676EF4F62C4CC720009F8DD2 /* Preview Assets.xcassets */; };
 		676EF5012C4CC720009F8DD2 /* ListShareTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EF5002C4CC720009F8DD2 /* ListShareTestTests.swift */; };
 		676EF50B2C4CC720009F8DD2 /* ListShareTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EF50A2C4CC720009F8DD2 /* ListShareTestUITests.swift */; };
 		676EF50D2C4CC720009F8DD2 /* ListShareTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EF50C2C4CC720009F8DD2 /* ListShareTestUITestsLaunchTests.swift */; };
+		676EF51A2C4CC748009F8DD2 /* FamilyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EF5192C4CC748009F8DD2 /* FamilyData.swift */; };
+		67A11F942C4EB68B00289BC3 /* ListShareWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A11F932C4EB68B00289BC3 /* ListShareWatchApp.swift */; };
+		67A11F962C4EB68B00289BC3 /* WFamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A11F952C4EB68B00289BC3 /* WFamilyView.swift */; };
+		67A11F982C4EB68D00289BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A11F972C4EB68D00289BC3 /* Assets.xcassets */; };
+		67A11F9B2C4EB68D00289BC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A11F9A2C4EB68D00289BC3 /* Preview Assets.xcassets */; };
+		67A11FA52C4EB68D00289BC3 /* ListShareWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A11FA42C4EB68D00289BC3 /* ListShareWatch_Watch_AppTests.swift */; };
+		67A11FAF2C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A11FAE2C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITests.swift */; };
+		67A11FB12C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A11FB02C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITestsLaunchTests.swift */; };
+		67A11FB42C4EB68D00289BC3 /* ListShareWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 67A11F912C4EB68B00289BC3 /* ListShareWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67A11FBF2C4EB6BC00289BC3 /* FriendsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF424F2C4EAE3600A678FD /* FriendsData.swift */; };
+		67A11FC02C4EB6BC00289BC3 /* FamilyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EF5192C4CC748009F8DD2 /* FamilyData.swift */; };
+		67A11FC42C4EBC4000289BC3 /* WFamilyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A11FC32C4EBC4000289BC3 /* WFamilyDetail.swift */; };
+		67BE54842C514C8F0060FDA1 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54832C514C8F0060FDA1 /* About.swift */; };
+		67BE54862C514C9B0060FDA1 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54852C514C9B0060FDA1 /* Support.swift */; };
+		67BE54882C514DFA0060FDA1 /* AboutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54872C514DFA0060FDA1 /* AboutData.swift */; };
+		67BE54892C514DFA0060FDA1 /* AboutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54872C514DFA0060FDA1 /* AboutData.swift */; };
+		67BE548B2C514E0A0060FDA1 /* SupportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE548A2C514E0A0060FDA1 /* SupportData.swift */; };
+		67BE548C2C514E0A0060FDA1 /* SupportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE548A2C514E0A0060FDA1 /* SupportData.swift */; };
+		67BE548E2C5157140060FDA1 /* AppLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE548D2C5157140060FDA1 /* AppLogo.swift */; };
+		67BE548F2C5157140060FDA1 /* AppLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE548D2C5157140060FDA1 /* AppLogo.swift */; };
+		67BE54912C515E8C0060FDA1 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54832C514C8F0060FDA1 /* About.swift */; };
+		67BE54922C515E8C0060FDA1 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54852C514C9B0060FDA1 /* Support.swift */; };
+		67BE54942C515EC20060FDA1 /* WAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54932C515EC20060FDA1 /* WAbout.swift */; };
+		67BE54952C515EC20060FDA1 /* WAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54932C515EC20060FDA1 /* WAbout.swift */; };
+		67BE54972C515ED20060FDA1 /* WSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54962C515ED20060FDA1 /* WSupport.swift */; };
+		67BF424E2C4EAC2A00A678FD /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF424D2C4EAC2A00A678FD /* Friends.swift */; };
+		67BF42502C4EAE3600A678FD /* FriendsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF424F2C4EAE3600A678FD /* FriendsData.swift */; };
+		67BF42542C4EB17800A678FD /* FriendsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF42532C4EB17800A678FD /* FriendsDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +67,65 @@
 			remoteGlobalIDString = 676EF4EB2C4CC71F009F8DD2;
 			remoteInfo = ListShareTest;
 		};
+		67A11FA12C4EB68D00289BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676EF4E42C4CC71F009F8DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A11F902C4EB68B00289BC3;
+			remoteInfo = "ListShareWatch Watch App";
+		};
+		67A11FAB2C4EB68D00289BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676EF4E42C4CC71F009F8DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A11F902C4EB68B00289BC3;
+			remoteInfo = "ListShareWatch Watch App";
+		};
+		67A11FB22C4EB68D00289BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676EF4E42C4CC71F009F8DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A11F902C4EB68B00289BC3;
+			remoteInfo = "ListShareWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6757B6652C517630002D2CA6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		67A11FB52C4EB68D00289BC3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				67A11FB42C4EB68D00289BC3 /* ListShareWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		670A38C42C5049C50041BC57 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		6757B6562C51762F002D2CA6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6757B6582C51762F002D2CA6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6757B66D2C5179C8002D2CA6 /* WFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFriendsView.swift; sourceTree = "<group>"; };
+		6757B66F2C5179DD002D2CA6 /* WFriendsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFriendsDetail.swift; sourceTree = "<group>"; };
+		6757B6712C517F22002D2CA6 /* WMainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMainMenu.swift; sourceTree = "<group>"; };
+		6765BBDB2C5574A800B3EA78 /* SDFamilyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDFamilyData.swift; sourceTree = "<group>"; };
+		6765BBDE2C557A5D00B3EA78 /* FamlyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamlyDetailView.swift; sourceTree = "<group>"; };
 		676EF4EC2C4CC71F009F8DD2 /* ListShareTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListShareTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		676EF4EF2C4CC71F009F8DD2 /* ListShareTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListShareTestApp.swift; sourceTree = "<group>"; };
-		676EF4F12C4CC71F009F8DD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		676EF4F12C4CC71F009F8DD2 /* FamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyView.swift; sourceTree = "<group>"; };
 		676EF4F32C4CC720009F8DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		676EF4F62C4CC720009F8DD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		676EF4FC2C4CC720009F8DD2 /* ListShareTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListShareTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +133,28 @@
 		676EF5062C4CC720009F8DD2 /* ListShareTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListShareTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		676EF50A2C4CC720009F8DD2 /* ListShareTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListShareTestUITests.swift; sourceTree = "<group>"; };
 		676EF50C2C4CC720009F8DD2 /* ListShareTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListShareTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		676EF5192C4CC748009F8DD2 /* FamilyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyData.swift; sourceTree = "<group>"; };
+		67A11F912C4EB68B00289BC3 /* ListShareWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ListShareWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A11F932C4EB68B00289BC3 /* ListShareWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListShareWatchApp.swift; sourceTree = "<group>"; };
+		67A11F952C4EB68B00289BC3 /* WFamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFamilyView.swift; sourceTree = "<group>"; };
+		67A11F972C4EB68D00289BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A11F9A2C4EB68D00289BC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67A11FA02C4EB68D00289BC3 /* ListShareWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ListShareWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A11FA42C4EB68D00289BC3 /* ListShareWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListShareWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		67A11FAA2C4EB68D00289BC3 /* ListShareWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ListShareWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A11FAE2C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListShareWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		67A11FB02C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListShareWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67A11FC32C4EBC4000289BC3 /* WFamilyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFamilyDetail.swift; sourceTree = "<group>"; };
+		67BE54832C514C8F0060FDA1 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		67BE54852C514C9B0060FDA1 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		67BE54872C514DFA0060FDA1 /* AboutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutData.swift; sourceTree = "<group>"; };
+		67BE548A2C514E0A0060FDA1 /* SupportData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportData.swift; sourceTree = "<group>"; };
+		67BE548D2C5157140060FDA1 /* AppLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogo.swift; sourceTree = "<group>"; };
+		67BE54932C515EC20060FDA1 /* WAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAbout.swift; sourceTree = "<group>"; };
+		67BE54962C515ED20060FDA1 /* WSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSupport.swift; sourceTree = "<group>"; };
+		67BF424D2C4EAC2A00A678FD /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		67BF424F2C4EAE3600A678FD /* FriendsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsData.swift; sourceTree = "<group>"; };
+		67BF42532C4EB17800A678FD /* FriendsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +179,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67A11F8E2C4EB68B00289BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A11F9D2C4EB68D00289BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A11FA72C4EB68D00289BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6757B6552C51762F002D2CA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6757B6562C51762F002D2CA6 /* WidgetKit.framework */,
+				6757B6582C51762F002D2CA6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		676EF4E32C4CC71F009F8DD2 = {
 			isa = PBXGroup;
 			children = (
 				676EF4EE2C4CC71F009F8DD2 /* ListShareTest */,
 				676EF4FF2C4CC720009F8DD2 /* ListShareTestTests */,
 				676EF5092C4CC720009F8DD2 /* ListShareTestUITests */,
+				67A11F922C4EB68B00289BC3 /* ListShareWatch Watch App */,
+				67A11FA32C4EB68D00289BC3 /* ListShareWatch Watch AppTests */,
+				67A11FAD2C4EB68D00289BC3 /* ListShareWatch Watch AppUITests */,
+				6757B6552C51762F002D2CA6 /* Frameworks */,
 				676EF4ED2C4CC71F009F8DD2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +232,9 @@
 				676EF4EC2C4CC71F009F8DD2 /* ListShareTest.app */,
 				676EF4FC2C4CC720009F8DD2 /* ListShareTestTests.xctest */,
 				676EF5062C4CC720009F8DD2 /* ListShareTestUITests.xctest */,
+				67A11F912C4EB68B00289BC3 /* ListShareWatch Watch App.app */,
+				67A11FA02C4EB68D00289BC3 /* ListShareWatch Watch AppTests.xctest */,
+				67A11FAA2C4EB68D00289BC3 /* ListShareWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +243,13 @@
 			isa = PBXGroup;
 			children = (
 				676EF4EF2C4CC71F009F8DD2 /* ListShareTestApp.swift */,
-				676EF4F12C4CC71F009F8DD2 /* ContentView.swift */,
+				67BE54902C515DF70060FDA1 /* About and Support */,
+				67BF42552C4EB23900A678FD /* Databases */,
+				670A38C42C5049C50041BC57 /* MainMenu.swift */,
+				676EF4F12C4CC71F009F8DD2 /* FamilyView.swift */,
+				6765BBDE2C557A5D00B3EA78 /* FamlyDetailView.swift */,
+				67BF424D2C4EAC2A00A678FD /* Friends.swift */,
+				67BF42532C4EB17800A678FD /* FriendsDetailView.swift */,
 				676EF4F32C4CC720009F8DD2 /* Assets.xcassets */,
 				676EF4F52C4CC720009F8DD2 /* Preview Content */,
 			);
@@ -127,6 +281,78 @@
 			path = ListShareTestUITests;
 			sourceTree = "<group>";
 		};
+		67A11F922C4EB68B00289BC3 /* ListShareWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				67A11F932C4EB68B00289BC3 /* ListShareWatchApp.swift */,
+				6757B6712C517F22002D2CA6 /* WMainMenu.swift */,
+				67BE54992C515EDF0060FDA1 /* WAbout and Support */,
+				67A11F952C4EB68B00289BC3 /* WFamilyView.swift */,
+				67A11FC32C4EBC4000289BC3 /* WFamilyDetail.swift */,
+				6757B66D2C5179C8002D2CA6 /* WFriendsView.swift */,
+				6757B66F2C5179DD002D2CA6 /* WFriendsDetail.swift */,
+				67A11F972C4EB68D00289BC3 /* Assets.xcassets */,
+				67A11F992C4EB68D00289BC3 /* Preview Content */,
+			);
+			path = "ListShareWatch Watch App";
+			sourceTree = "<group>";
+		};
+		67A11F992C4EB68D00289BC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67A11F9A2C4EB68D00289BC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67A11FA32C4EB68D00289BC3 /* ListShareWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				67A11FA42C4EB68D00289BC3 /* ListShareWatch_Watch_AppTests.swift */,
+			);
+			path = "ListShareWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		67A11FAD2C4EB68D00289BC3 /* ListShareWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67A11FAE2C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITests.swift */,
+				67A11FB02C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "ListShareWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		67BE54902C515DF70060FDA1 /* About and Support */ = {
+			isa = PBXGroup;
+			children = (
+				67BE54832C514C8F0060FDA1 /* About.swift */,
+				67BE54852C514C9B0060FDA1 /* Support.swift */,
+			);
+			path = "About and Support";
+			sourceTree = "<group>";
+		};
+		67BE54992C515EDF0060FDA1 /* WAbout and Support */ = {
+			isa = PBXGroup;
+			children = (
+				67BE54932C515EC20060FDA1 /* WAbout.swift */,
+				67BE54962C515ED20060FDA1 /* WSupport.swift */,
+			);
+			path = "WAbout and Support";
+			sourceTree = "<group>";
+		};
+		67BF42552C4EB23900A678FD /* Databases */ = {
+			isa = PBXGroup;
+			children = (
+				676EF5192C4CC748009F8DD2 /* FamilyData.swift */,
+				67BF424F2C4EAE3600A678FD /* FriendsData.swift */,
+				67BE54872C514DFA0060FDA1 /* AboutData.swift */,
+				67BE548A2C514E0A0060FDA1 /* SupportData.swift */,
+				67BE548D2C5157140060FDA1 /* AppLogo.swift */,
+				6765BBDB2C5574A800B3EA78 /* SDFamilyData.swift */,
+			);
+			path = Databases;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +363,13 @@
 				676EF4E82C4CC71F009F8DD2 /* Sources */,
 				676EF4E92C4CC71F009F8DD2 /* Frameworks */,
 				676EF4EA2C4CC71F009F8DD2 /* Resources */,
+				67A11FB52C4EB68D00289BC3 /* Embed Watch Content */,
+				6757B6652C517630002D2CA6 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				67A11FB32C4EB68D00289BC3 /* PBXTargetDependency */,
 			);
 			name = ListShareTest;
 			productName = ListShareTest;
@@ -183,6 +412,59 @@
 			productReference = 676EF5062C4CC720009F8DD2 /* ListShareTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		67A11F902C4EB68B00289BC3 /* ListShareWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A11FBC2C4EB68D00289BC3 /* Build configuration list for PBXNativeTarget "ListShareWatch Watch App" */;
+			buildPhases = (
+				67A11F8D2C4EB68B00289BC3 /* Sources */,
+				67A11F8E2C4EB68B00289BC3 /* Frameworks */,
+				67A11F8F2C4EB68B00289BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ListShareWatch Watch App";
+			productName = "ListShareWatch Watch App";
+			productReference = 67A11F912C4EB68B00289BC3 /* ListShareWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67A11F9F2C4EB68D00289BC3 /* ListShareWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A11FBD2C4EB68D00289BC3 /* Build configuration list for PBXNativeTarget "ListShareWatch Watch AppTests" */;
+			buildPhases = (
+				67A11F9C2C4EB68D00289BC3 /* Sources */,
+				67A11F9D2C4EB68D00289BC3 /* Frameworks */,
+				67A11F9E2C4EB68D00289BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A11FA22C4EB68D00289BC3 /* PBXTargetDependency */,
+			);
+			name = "ListShareWatch Watch AppTests";
+			productName = "ListShareWatch Watch AppTests";
+			productReference = 67A11FA02C4EB68D00289BC3 /* ListShareWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67A11FA92C4EB68D00289BC3 /* ListShareWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A11FBE2C4EB68D00289BC3 /* Build configuration list for PBXNativeTarget "ListShareWatch Watch AppUITests" */;
+			buildPhases = (
+				67A11FA62C4EB68D00289BC3 /* Sources */,
+				67A11FA72C4EB68D00289BC3 /* Frameworks */,
+				67A11FA82C4EB68D00289BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A11FAC2C4EB68D00289BC3 /* PBXTargetDependency */,
+			);
+			name = "ListShareWatch Watch AppUITests";
+			productName = "ListShareWatch Watch AppUITests";
+			productReference = 67A11FAA2C4EB68D00289BC3 /* ListShareWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +486,17 @@
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = 676EF4EB2C4CC71F009F8DD2;
 					};
+					67A11F902C4EB68B00289BC3 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					67A11F9F2C4EB68D00289BC3 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 67A11F902C4EB68B00289BC3;
+					};
+					67A11FA92C4EB68D00289BC3 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 67A11F902C4EB68B00289BC3;
+					};
 				};
 			};
 			buildConfigurationList = 676EF4E72C4CC71F009F8DD2 /* Build configuration list for PBXProject "ListShareTest" */;
@@ -222,6 +515,9 @@
 				676EF4EB2C4CC71F009F8DD2 /* ListShareTest */,
 				676EF4FB2C4CC720009F8DD2 /* ListShareTestTests */,
 				676EF5052C4CC720009F8DD2 /* ListShareTestUITests */,
+				67A11F902C4EB68B00289BC3 /* ListShareWatch Watch App */,
+				67A11F9F2C4EB68D00289BC3 /* ListShareWatch Watch AppTests */,
+				67A11FA92C4EB68D00289BC3 /* ListShareWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +546,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67A11F8F2C4EB68B00289BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A11F9B2C4EB68D00289BC3 /* Preview Assets.xcassets in Resources */,
+				67A11F982C4EB68D00289BC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A11F9E2C4EB68D00289BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A11FA82C4EB68D00289BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +576,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				676EF4F22C4CC71F009F8DD2 /* ContentView.swift in Sources */,
+				6765BBDD2C5574A800B3EA78 /* SDFamilyData.swift in Sources */,
+				67BF42542C4EB17800A678FD /* FriendsDetailView.swift in Sources */,
+				67BE54952C515EC20060FDA1 /* WAbout.swift in Sources */,
+				67BE54862C514C9B0060FDA1 /* Support.swift in Sources */,
+				67BF424E2C4EAC2A00A678FD /* Friends.swift in Sources */,
+				676EF4F22C4CC71F009F8DD2 /* FamilyView.swift in Sources */,
+				670A38C52C5049C50041BC57 /* MainMenu.swift in Sources */,
+				6765BBE02C557A5D00B3EA78 /* FamlyDetailView.swift in Sources */,
+				67BF42502C4EAE3600A678FD /* FriendsData.swift in Sources */,
+				67BE548B2C514E0A0060FDA1 /* SupportData.swift in Sources */,
+				676EF51A2C4CC748009F8DD2 /* FamilyData.swift in Sources */,
+				67BE54842C514C8F0060FDA1 /* About.swift in Sources */,
 				676EF4F02C4CC71F009F8DD2 /* ListShareTestApp.swift in Sources */,
+				67BE548E2C5157140060FDA1 /* AppLogo.swift in Sources */,
+				67BE54882C514DFA0060FDA1 /* AboutData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +599,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				676EF5012C4CC720009F8DD2 /* ListShareTestTests.swift in Sources */,
+				6765BBDF2C557A5D00B3EA78 /* FamlyDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +609,46 @@
 			files = (
 				676EF50D2C4CC720009F8DD2 /* ListShareTestUITestsLaunchTests.swift in Sources */,
 				676EF50B2C4CC720009F8DD2 /* ListShareTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A11F8D2C4EB68B00289BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6765BBDC2C5574A800B3EA78 /* SDFamilyData.swift in Sources */,
+				6757B6702C5179DD002D2CA6 /* WFriendsDetail.swift in Sources */,
+				67A11F962C4EB68B00289BC3 /* WFamilyView.swift in Sources */,
+				67BE54912C515E8C0060FDA1 /* About.swift in Sources */,
+				67BE54922C515E8C0060FDA1 /* Support.swift in Sources */,
+				67A11FBF2C4EB6BC00289BC3 /* FriendsData.swift in Sources */,
+				67A11FC02C4EB6BC00289BC3 /* FamilyData.swift in Sources */,
+				6757B66E2C5179C8002D2CA6 /* WFriendsView.swift in Sources */,
+				67BE548F2C5157140060FDA1 /* AppLogo.swift in Sources */,
+				6757B6722C517F22002D2CA6 /* WMainMenu.swift in Sources */,
+				67BE54972C515ED20060FDA1 /* WSupport.swift in Sources */,
+				67BE54942C515EC20060FDA1 /* WAbout.swift in Sources */,
+				67A11FC42C4EBC4000289BC3 /* WFamilyDetail.swift in Sources */,
+				67A11F942C4EB68B00289BC3 /* ListShareWatchApp.swift in Sources */,
+				67BE548C2C514E0A0060FDA1 /* SupportData.swift in Sources */,
+				67BE54892C514DFA0060FDA1 /* AboutData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A11F9C2C4EB68D00289BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A11FA52C4EB68D00289BC3 /* ListShareWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A11FA62C4EB68D00289BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A11FB12C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				67A11FAF2C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +664,21 @@
 			isa = PBXTargetDependency;
 			target = 676EF4EB2C4CC71F009F8DD2 /* ListShareTest */;
 			targetProxy = 676EF5072C4CC720009F8DD2 /* PBXContainerItemProxy */;
+		};
+		67A11FA22C4EB68D00289BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A11F902C4EB68B00289BC3 /* ListShareWatch Watch App */;
+			targetProxy = 67A11FA12C4EB68D00289BC3 /* PBXContainerItemProxy */;
+		};
+		67A11FAC2C4EB68D00289BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A11F902C4EB68B00289BC3 /* ListShareWatch Watch App */;
+			targetProxy = 67A11FAB2C4EB68D00289BC3 /* PBXContainerItemProxy */;
+		};
+		67A11FB32C4EB68D00289BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A11F902C4EB68B00289BC3 /* ListShareWatch Watch App */;
+			targetProxy = 67A11FB22C4EB68D00289BC3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -437,9 +825,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.connectingpeoplesoftware.ListShareTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,9 +858,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.connectingpeoplesoftware.ListShareTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -544,6 +940,144 @@
 			};
 			name = Release;
 		};
+		67A11FB62C4EB68D00289BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ListShareWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ListShareWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.connectingpeoplesoftware.ListShareTest;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connectingpeoplesoftware.ListShareTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		67A11FB72C4EB68D00289BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ListShareWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ListShareWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.connectingpeoplesoftware.ListShareTest;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connectingpeoplesoftware.ListShareTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		67A11FB82C4EB68D00289BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connectingpeoplesoftware.ListShareWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListShareWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ListShareWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		67A11FB92C4EB68D00289BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connectingpeoplesoftware.ListShareWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListShareWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ListShareWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		67A11FBA2C4EB68D00289BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connectingpeoplesoftware.ListShareWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ListShareWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		67A11FBB2C4EB68D00289BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connectingpeoplesoftware.ListShareWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ListShareWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,6 +1113,33 @@
 			buildConfigurations = (
 				676EF5172C4CC720009F8DD2 /* Debug */,
 				676EF5182C4CC720009F8DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A11FBC2C4EB68D00289BC3 /* Build configuration list for PBXNativeTarget "ListShareWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A11FB62C4EB68D00289BC3 /* Debug */,
+				67A11FB72C4EB68D00289BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A11FBD2C4EB68D00289BC3 /* Build configuration list for PBXNativeTarget "ListShareWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A11FB82C4EB68D00289BC3 /* Debug */,
+				67A11FB92C4EB68D00289BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A11FBE2C4EB68D00289BC3 /* Build configuration list for PBXNativeTarget "ListShareWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A11FBA2C4EB68D00289BC3 /* Debug */,
+				67A11FBB2C4EB68D00289BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
