@@ -41,10 +41,10 @@ struct WMainMenu: View {
 						
 						Divider()
 						
-						}
+						}.navigationTitle("Select:")
       }
       
-						.navigationTitle("Select:")
+						
 					}
 								
     }
