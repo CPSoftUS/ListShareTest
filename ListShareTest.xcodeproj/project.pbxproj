@@ -36,6 +36,8 @@
 		67A11FBF2C4EB6BC00289BC3 /* FriendsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF424F2C4EAE3600A678FD /* FriendsData.swift */; };
 		67A11FC02C4EB6BC00289BC3 /* FamilyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EF5192C4CC748009F8DD2 /* FamilyData.swift */; };
 		67A11FC42C4EBC4000289BC3 /* WFamilyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A11FC32C4EBC4000289BC3 /* WFamilyDetail.swift */; };
+		67BDCE8E2C59E1ED004ACC61 /* SDFriendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDCE8D2C59E1ED004ACC61 /* SDFriendData.swift */; };
+		67BDCE8F2C59E1ED004ACC61 /* SDFriendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDCE8D2C59E1ED004ACC61 /* SDFriendData.swift */; };
 		67BE54842C514C8F0060FDA1 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54832C514C8F0060FDA1 /* About.swift */; };
 		67BE54862C514C9B0060FDA1 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54852C514C9B0060FDA1 /* Support.swift */; };
 		67BE54882C514DFA0060FDA1 /* AboutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE54872C514DFA0060FDA1 /* AboutData.swift */; };
@@ -148,6 +150,7 @@
 		67A11FAE2C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListShareWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		67A11FB02C4EB68D00289BC3 /* ListShareWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListShareWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		67A11FC32C4EBC4000289BC3 /* WFamilyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFamilyDetail.swift; sourceTree = "<group>"; };
+		67BDCE8D2C59E1ED004ACC61 /* SDFriendData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDFriendData.swift; sourceTree = "<group>"; };
 		67BE54832C514C8F0060FDA1 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		67BE54852C514C9B0060FDA1 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
 		67BE54872C514DFA0060FDA1 /* AboutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutData.swift; sourceTree = "<group>"; };
@@ -248,6 +251,7 @@
 				676EF4EF2C4CC71F009F8DD2 /* ListShareTestApp.swift */,
 				67BE54902C515DF70060FDA1 /* About and Support */,
 				67BF42552C4EB23900A678FD /* Databases */,
+				67BDCE8C2C59E178004ACC61 /* SwiftData */,
 				670A38C42C5049C50041BC57 /* MainMenu.swift */,
 				676EF4F12C4CC71F009F8DD2 /* FamilyView.swift */,
 				6765BBDE2C557A5D00B3EA78 /* FamlyDetailView.swift */,
@@ -325,6 +329,15 @@
 			path = "ListShareWatch Watch AppUITests";
 			sourceTree = "<group>";
 		};
+		67BDCE8C2C59E178004ACC61 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				6765BBDB2C5574A800B3EA78 /* SDFamilyData.swift */,
+				67BDCE8D2C59E1ED004ACC61 /* SDFriendData.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
 		67BE54902C515DF70060FDA1 /* About and Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,7 +364,6 @@
 				67BE54872C514DFA0060FDA1 /* AboutData.swift */,
 				67BE548A2C514E0A0060FDA1 /* SupportData.swift */,
 				67BE548D2C5157140060FDA1 /* AppLogo.swift */,
-				6765BBDB2C5574A800B3EA78 /* SDFamilyData.swift */,
 				670824DC2C59425300C3C746 /* VersionInformation.swift */,
 			);
 			path = Databases;
@@ -593,6 +605,7 @@
 				676EF51A2C4CC748009F8DD2 /* FamilyData.swift in Sources */,
 				67BE54842C514C8F0060FDA1 /* About.swift in Sources */,
 				676EF4F02C4CC71F009F8DD2 /* ListShareTestApp.swift in Sources */,
+				67BDCE8F2C59E1ED004ACC61 /* SDFriendData.swift in Sources */,
 				67BE548E2C5157140060FDA1 /* AppLogo.swift in Sources */,
 				67BE54882C514DFA0060FDA1 /* AboutData.swift in Sources */,
 				670824DD2C59425300C3C746 /* VersionInformation.swift in Sources */,
@@ -633,6 +646,7 @@
 				6757B6722C517F22002D2CA6 /* WMainMenu.swift in Sources */,
 				67BE54972C515ED20060FDA1 /* WSupport.swift in Sources */,
 				67BE54942C515EC20060FDA1 /* WAbout.swift in Sources */,
+				67BDCE8E2C59E1ED004ACC61 /* SDFriendData.swift in Sources */,
 				670824DE2C59425300C3C746 /* VersionInformation.swift in Sources */,
 				67A11FC42C4EBC4000289BC3 /* WFamilyDetail.swift in Sources */,
 				67A11F942C4EB68B00289BC3 /* ListShareWatchApp.swift in Sources */,

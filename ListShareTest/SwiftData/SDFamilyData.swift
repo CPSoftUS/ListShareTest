@@ -6,10 +6,12 @@ import Observation
 @Model
 
 class SDFamilyData {
-var name: String = ""
-var phone: String = ""
+	
+	var id = UUID()
+	var name: String = ""
+	var phone: String = ""
 
-	init(name: String, phone: String) {
+	init(id: UUID,name: String, phone: String) {
 		self.name = name
 		self.phone = phone
 	}
