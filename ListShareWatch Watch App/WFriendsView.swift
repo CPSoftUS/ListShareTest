@@ -14,7 +14,7 @@ struct WFriendsView: View {
 									
 							  HStack {
 							
-								Image(systemName: "person.crop.circle")
+								Image(systemName: "person.3")
 									
 										NavigationLink(showThem.name, destination: WFriendsDetail())
 									

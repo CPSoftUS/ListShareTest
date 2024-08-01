@@ -35,7 +35,7 @@ struct WMainMenu: View {
 						
 						NavigationLink("Support") {
 						
-							Support()
+							WSupport()
 						
 						}.background(Color.red)
 						
