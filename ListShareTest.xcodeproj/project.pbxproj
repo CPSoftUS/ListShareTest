@@ -3,13 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		670824DD2C59425300C3C746 /* VersionInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670824DC2C59425300C3C746 /* VersionInformation.swift */; };
 		670824DE2C59425300C3C746 /* VersionInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670824DC2C59425300C3C746 /* VersionInformation.swift */; };
 		670A38C52C5049C50041BC57 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670A38C42C5049C50041BC57 /* MainMenu.swift */; };
+		674E18882C5E93BA00013F8B /* FriendsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF424F2C4EAE3600A678FD /* FriendsData.swift */; };
+		674E18892C5E93BA00013F8B /* VersionInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670824DC2C59425300C3C746 /* VersionInformation.swift */; };
+		674E188A2C5E93BA00013F8B /* AppLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE548D2C5157140060FDA1 /* AppLogo.swift */; };
+		674E188B2C5E93BA00013F8B /* FamilyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EF5192C4CC748009F8DD2 /* FamilyData.swift */; };
 		6757B66E2C5179C8002D2CA6 /* WFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6757B66D2C5179C8002D2CA6 /* WFriendsView.swift */; };
 		6757B6702C5179DD002D2CA6 /* WFriendsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6757B66F2C5179DD002D2CA6 /* WFriendsDetail.swift */; };
 		6757B6722C517F22002D2CA6 /* WMainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6757B6712C517F22002D2CA6 /* WMainMenu.swift */; };
@@ -57,6 +61,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		674E186E2C5E936300013F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676EF4E42C4CC71F009F8DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674E185C2C5E936100013F8B;
+			remoteInfo = MListShareTest;
+		};
+		674E18782C5E936300013F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676EF4E42C4CC71F009F8DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674E185C2C5E936100013F8B;
+			remoteInfo = MListShareTest;
+		};
 		676EF4FD2C4CC720009F8DD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 676EF4E42C4CC71F009F8DD2 /* Project object */;
@@ -121,6 +139,9 @@
 /* Begin PBXFileReference section */
 		670824DC2C59425300C3C746 /* VersionInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInformation.swift; sourceTree = "<group>"; };
 		670A38C42C5049C50041BC57 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		674E185D2C5E936100013F8B /* MListShareTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MListShareTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		674E186D2C5E936300013F8B /* MListShareTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MListShareTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		674E18772C5E936300013F8B /* MListShareTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MListShareTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6757B6562C51762F002D2CA6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		6757B6582C51762F002D2CA6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		6757B66D2C5179C8002D2CA6 /* WFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFriendsView.swift; sourceTree = "<group>"; };
@@ -163,7 +184,34 @@
 		67BF42532C4EB17800A678FD /* FriendsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		674E185E2C5E936200013F8B /* MListShareTest */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MListShareTest; sourceTree = "<group>"; };
+		674E18702C5E936300013F8B /* MListShareTestTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MListShareTestTests; sourceTree = "<group>"; };
+		674E187A2C5E936300013F8B /* MListShareTestUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MListShareTestUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		674E185A2C5E936100013F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674E186A2C5E936300013F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674E18742C5E936300013F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		676EF4E92C4CC71F009F8DD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +275,9 @@
 				67A11F922C4EB68B00289BC3 /* ListShareWatch Watch App */,
 				67A11FA32C4EB68D00289BC3 /* ListShareWatch Watch AppTests */,
 				67A11FAD2C4EB68D00289BC3 /* ListShareWatch Watch AppUITests */,
+				674E185E2C5E936200013F8B /* MListShareTest */,
+				674E18702C5E936300013F8B /* MListShareTestTests */,
+				674E187A2C5E936300013F8B /* MListShareTestUITests */,
 				6757B6552C51762F002D2CA6 /* Frameworks */,
 				676EF4ED2C4CC71F009F8DD2 /* Products */,
 			);
@@ -241,6 +292,9 @@
 				67A11F912C4EB68B00289BC3 /* ListShareWatch Watch App.app */,
 				67A11FA02C4EB68D00289BC3 /* ListShareWatch Watch AppTests.xctest */,
 				67A11FAA2C4EB68D00289BC3 /* ListShareWatch Watch AppUITests.xctest */,
+				674E185D2C5E936100013F8B /* MListShareTest.app */,
+				674E186D2C5E936300013F8B /* MListShareTestTests.xctest */,
+				674E18772C5E936300013F8B /* MListShareTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -372,6 +426,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		674E185C2C5E936100013F8B /* MListShareTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674E18852C5E936300013F8B /* Build configuration list for PBXNativeTarget "MListShareTest" */;
+			buildPhases = (
+				674E18592C5E936100013F8B /* Sources */,
+				674E185A2C5E936100013F8B /* Frameworks */,
+				674E185B2C5E936100013F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				674E185E2C5E936200013F8B /* MListShareTest */,
+			);
+			name = MListShareTest;
+			packageProductDependencies = (
+			);
+			productName = MListShareTest;
+			productReference = 674E185D2C5E936100013F8B /* MListShareTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		674E186C2C5E936300013F8B /* MListShareTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674E18862C5E936300013F8B /* Build configuration list for PBXNativeTarget "MListShareTestTests" */;
+			buildPhases = (
+				674E18692C5E936300013F8B /* Sources */,
+				674E186A2C5E936300013F8B /* Frameworks */,
+				674E186B2C5E936300013F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				674E186F2C5E936300013F8B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				674E18702C5E936300013F8B /* MListShareTestTests */,
+			);
+			name = MListShareTestTests;
+			packageProductDependencies = (
+			);
+			productName = MListShareTestTests;
+			productReference = 674E186D2C5E936300013F8B /* MListShareTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		674E18762C5E936300013F8B /* MListShareTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674E18872C5E936300013F8B /* Build configuration list for PBXNativeTarget "MListShareTestUITests" */;
+			buildPhases = (
+				674E18732C5E936300013F8B /* Sources */,
+				674E18742C5E936300013F8B /* Frameworks */,
+				674E18752C5E936300013F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				674E18792C5E936300013F8B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				674E187A2C5E936300013F8B /* MListShareTestUITests */,
+			);
+			name = MListShareTestUITests;
+			packageProductDependencies = (
+			);
+			productName = MListShareTestUITests;
+			productReference = 674E18772C5E936300013F8B /* MListShareTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		676EF4EB2C4CC71F009F8DD2 /* ListShareTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 676EF5102C4CC720009F8DD2 /* Build configuration list for PBXNativeTarget "ListShareTest" */;
@@ -491,6 +613,17 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					674E185C2C5E936100013F8B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					674E186C2C5E936300013F8B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 674E185C2C5E936100013F8B;
+					};
+					674E18762C5E936300013F8B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 674E185C2C5E936100013F8B;
+					};
 					676EF4EB2C4CC71F009F8DD2 = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -534,11 +667,35 @@
 				67A11F902C4EB68B00289BC3 /* ListShareWatch Watch App */,
 				67A11F9F2C4EB68D00289BC3 /* ListShareWatch Watch AppTests */,
 				67A11FA92C4EB68D00289BC3 /* ListShareWatch Watch AppUITests */,
+				674E185C2C5E936100013F8B /* MListShareTest */,
+				674E186C2C5E936300013F8B /* MListShareTestTests */,
+				674E18762C5E936300013F8B /* MListShareTestUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		674E185B2C5E936100013F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674E186B2C5E936300013F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674E18752C5E936300013F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		676EF4EA2C4CC71F009F8DD2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -588,6 +745,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		674E18592C5E936100013F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674E18882C5E93BA00013F8B /* FriendsData.swift in Sources */,
+				674E18892C5E93BA00013F8B /* VersionInformation.swift in Sources */,
+				674E188A2C5E93BA00013F8B /* AppLogo.swift in Sources */,
+				674E188B2C5E93BA00013F8B /* FamilyData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674E18692C5E936300013F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674E18732C5E936300013F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		676EF4E82C4CC71F009F8DD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -675,6 +857,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		674E186F2C5E936300013F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674E185C2C5E936100013F8B /* MListShareTest */;
+			targetProxy = 674E186E2C5E936300013F8B /* PBXContainerItemProxy */;
+		};
+		674E18792C5E936300013F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674E185C2C5E936100013F8B /* MListShareTest */;
+			targetProxy = 674E18782C5E936300013F8B /* PBXContainerItemProxy */;
+		};
 		676EF4FE2C4CC720009F8DD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 676EF4EB2C4CC71F009F8DD2 /* ListShareTest */;
@@ -703,6 +895,138 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		674E187F2C5E936300013F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MListShareTest/MListShareTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MListShareTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connectingpeoplesoftware.MListShareTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		674E18802C5E936300013F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MListShareTest/MListShareTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MListShareTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connectingpeoplesoftware.MListShareTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		674E18812C5E936300013F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connectingpeoplesoftware.MListShareTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MListShareTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MListShareTest";
+			};
+			name = Debug;
+		};
+		674E18822C5E936300013F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connectingpeoplesoftware.MListShareTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MListShareTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MListShareTest";
+			};
+			name = Release;
+		};
+		674E18832C5E936300013F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connectingpeoplesoftware.MListShareTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MListShareTest;
+			};
+			name = Debug;
+		};
+		674E18842C5E936300013F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P8V9ZC6MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connectingpeoplesoftware.MListShareTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MListShareTest;
+			};
+			name = Release;
+		};
 		676EF50E2C4CC720009F8DD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1101,6 +1425,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		674E18852C5E936300013F8B /* Build configuration list for PBXNativeTarget "MListShareTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674E187F2C5E936300013F8B /* Debug */,
+				674E18802C5E936300013F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		674E18862C5E936300013F8B /* Build configuration list for PBXNativeTarget "MListShareTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674E18812C5E936300013F8B /* Debug */,
+				674E18822C5E936300013F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		674E18872C5E936300013F8B /* Build configuration list for PBXNativeTarget "MListShareTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674E18832C5E936300013F8B /* Debug */,
+				674E18842C5E936300013F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		676EF4E72C4CC71F009F8DD2 /* Build configuration list for PBXProject "ListShareTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

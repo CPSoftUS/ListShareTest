@@ -21,7 +21,7 @@ struct WAbout: View {
 									
 									Spacer()
 									
-									Text("Version: \(version.appVersion ?? "0")")
+									Text("Version: \(version.appVersion ?? "0.0")")
 									
 									Spacer()
 									
