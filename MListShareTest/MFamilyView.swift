@@ -27,9 +27,9 @@ struct MFamilyView: View {
 					
 						List {
 									
-							ForEach(familyList.names) { name in
+							ForEach(familyList.names) { phone in
 										
-								Text(name.phone)
+								Text(phone.phone)
 										}
 					}
 					}
