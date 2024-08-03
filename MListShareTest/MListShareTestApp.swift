@@ -11,7 +11,7 @@ import SwiftUI
 struct MListShareTestApp: App {
     var body: some Scene {
         WindowGroup {
-            MFamilyView()
+            MMainMacView()
         }
     }
 }
