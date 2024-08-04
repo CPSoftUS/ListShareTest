@@ -358,7 +358,6 @@
 				676EF4EF2C4CC71F009F8DD2 /* ListShareTestApp.swift */,
 				67BE54902C515DF70060FDA1 /* About and Support */,
 				67BF42552C4EB23900A678FD /* Databases */,
-				67BDCE8C2C59E178004ACC61 /* SwiftData */,
 				670A38C42C5049C50041BC57 /* MainMenu.swift */,
 				676EF4F12C4CC71F009F8DD2 /* FamilyView.swift */,
 				6765BBDE2C557A5D00B3EA78 /* FamlyDetailView.swift */,
@@ -466,6 +465,7 @@
 		67BF42552C4EB23900A678FD /* Databases */ = {
 			isa = PBXGroup;
 			children = (
+				67BDCE8C2C59E178004ACC61 /* SwiftData */,
 				676EF5192C4CC748009F8DD2 /* FamilyData.swift */,
 				67BF424F2C4EAE3600A678FD /* FriendsData.swift */,
 				67BE54872C514DFA0060FDA1 /* AboutData.swift */,

@@ -27,7 +27,7 @@ struct Friends: View {
 						NavigationLink(name.name, destination: FriendsDetailView()) 
 					
 					}
-					}.navigationTitle("Friends")
+					}.navigationTitle("Friends: \(friends.friends.count)")
 					.navigationBarTitleDisplayMode(.inline)
 				
 				}

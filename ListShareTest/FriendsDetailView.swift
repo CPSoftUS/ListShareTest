@@ -11,6 +11,7 @@ struct FriendsDetailView: View {
         
         List {
         
+									// Sort list by NAME.
 									ForEach(friendsInfo.friends) { friend in
 									
 										HStack {
@@ -19,7 +20,6 @@ struct FriendsDetailView: View {
 												.foregroundColor(.yellow)
 										
 											Text("\(friend.name)")
-												.italic()
 											
 											Spacer()
 											
@@ -39,10 +39,10 @@ struct FriendsDetailView: View {
 											Text("--")
 											}
 											
-											Text("\(friend.city),")
-											Text("\(friend.state)")
+											Text("\(friend.phone),")
+											
 										
-									}.navigationTitle("Name & City List")
+									}.navigationTitle("Name & Phone List: \(friendsInfo.friends.count)")
 								.navigationBarTitleDisplayMode(.inline)
 									}
 									

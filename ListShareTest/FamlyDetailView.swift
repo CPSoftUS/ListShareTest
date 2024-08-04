@@ -10,6 +10,7 @@ struct FamilyDetailView: View {
 						
 					List {
 					 
+					// Sort list by NAME.
 					ForEach(actData.names.sorted { $0.name < $1.name}) { name in
 						
 							HStack {
@@ -25,7 +26,7 @@ struct FamilyDetailView: View {
 						
 							}
 								
-					}.navigationTitle("Name & Phone List")
+					}.navigationTitle("Family List: \(actData.names.count)")
 					.navigationBarTitleDisplayMode(.inline)
 					}
 					
