@@ -15,8 +15,8 @@ struct FriendsDetailView: View {
 									
 										HStack {
 										
-											Image(systemName: "circle.fill")
-												.foregroundColor(.green)
+											Image(systemName: "info.circle.fill")
+												.foregroundColor(.yellow)
 										
 											Text("\(friend.name)")
 												.italic()

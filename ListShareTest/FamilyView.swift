@@ -20,7 +20,7 @@ var friendData = FriendsData()
 							HStack {
 						
 								Image(systemName: "circle.fill")
-									.foregroundColor(.green)
+									.foregroundColor(showIt.dotColor)
 						
 								NavigationLink(showIt.name, destination: FamilyDetailView())
 								

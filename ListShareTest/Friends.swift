@@ -13,8 +13,9 @@ struct Friends: View {
 				
 					ForEach(friends.friends) { name in
 					
-						HStack {Image(systemName: "circle.fill")
-							.foregroundStyle(Color.green)
+						HStack {
+						Image(systemName: "circle.fill")
+								.foregroundStyle(name.dotColor)
 							
 							
 							if name.name.isEmpty
